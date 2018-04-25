@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+/*header start*/
+.header{
+    min-height: 100px;
+    width: auto;
+    background-color: #323A45;
+    overflow: hidden;
+}
+.wrapper{
+    overflow: hidden;
+    min-height: 100px;
+    width: 75%;
+    margin: 0 auto;
+}
+.logo{
+    min-height: 80px;
+    width: 20%;
+    float: left;
+    padding: 20px 0px 0px 40px;
+    margin-top: 20px;
+    
+}
+.nav{
+    float: right;
+    margin-top: 30px;
+}
+.nav ul{
+    float: right;
+}
+.nav ul li{
+    float: left;
+    list-style: none;
+}
+.nav ul li a{
+    color: white;
+    display: block;
+    text-decoration:none;
+    padding:10px 20px;
+}
+
+.nav ul li:last-child a{
+    padding-right: 0;
+}
+.nav ul li a:hover {
+    background-color: #297FB8;
+}
+/*header end*/
+/*banner start*/
+.banner{
+    min-height: 300px;
+    width: auto;
+    overflow: hidden;
+    background-image: url(../images/background%20pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner_wrapper{
+    overflow: hidden;
+    min-height: 200px;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.pera_one{
+    min-height: 70px;
+    text-align: center;
+    color: white;
+}
+.pera_two{
+     min-height: 70px;
+    text-align: center;
+    color: white;
+}
+.pera_three{
+    min-height: 60px;
+    text-align: center; 
+}
+.pera_three button{
+    padding: 10px 20px;
+    color: aqua;
+    background-color: transparent;
+}
+/*banner end*/
+/*information start*/
+.information{
+    min-height: 150px;
+    width: auto;
+    background-color: #E9E6E1;
+    overflow: hidden;
+}
+.information_wrapper{
+    min-height: 100px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 35px;
+    text-align: center;
+}
+.text{
+    background-color: aqua;
+}
+.text_two{
+    color: aqua;
+}
+/*information end*/
+/*services start*/
+.services{
+    min-height: 250px;
+    width: auto;
+}
+.services_wrapper{
+    min-height: 200px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.single_box{
+    min-height: 200px;
+    width: 20%;
+    float: left;
+    background-color: #E2E0E1;
+    overflow: hidden;
+    padding: 20px 10px;
+    margin-left: 30px;
+}
+.services_logo{
+    text-align: center;
+    min-height: 70px;
+    width: auto;
+}
+.logo_text{
+    min-height: 50px;
+    width: auto;
+    text-align: center;
+}
+.logo_pera{
+    min-height: 80px;
+    width: auto;
+    text-align: center;
+}
+/*services end  */
+/*gallery start*/
+.gallery{
+    min-height: 250px;
+    width: auto;
+    overflow: hidden;
+}
+.gallery_wrapper{
+    min-height: 200px;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.gallery_one{
+    min-height: 200px;
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-left: 30px;
+}
+.view button{
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #2CA6CA;
+}
+.gallary_two{
+    min-height: 200px;
+    width: 30%;
+    float: right;
+    overflow: hidden;
+}
+.box_two{
+    min-height: 200px;
+    width: 20%;
+    float: right;
+}
+.box_one{
+    min-height: 200px;
+    width: 20%;
+    float: right;
+}
+.box_three{
+    min-height: 200px;
+    width: 20%;
+    float: right;
+}
+/*gallery end*/
+/*media start*/
+.media{
+    min-height: 200px;
+    width: auto;
+    overflow: hidden;
+    background-color: #2A80B9;
+}
+.media_wrapper{
+    min-height: 160px;
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.media_one{
+    min-height: 40px;
+    width: auto;
+    text-align: center;
+}
+.media_two{
+    min-height: 60px;
+    width: auto;
+    text-align: center;
+}
+media_three{
+    min-height: 50px;
+    width: ;
+    overflow: hidden;
+}
+.wrapper_three{
+    min-height: 50px;
+    width: 20%;
+    margin: 0 auto;
+}
+.footer{
+    min-height: 100px;
+    width: auto;
+    overflow: hidden;
+    background-color: #323A45;
+}
+.footer_wrapper{
+    min-height: 70px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+/*media end*/
